@@ -1,0 +1,39 @@
+.navbar-item {
+	position: relative;
+	padding: 10px;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	z-index: 1;
+	border-radius: 10px;
+	padding: 10px 30px 10px 4px;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+	display: block;
+	transition-delay: 0.1s;
+}
+
+.Navlinks {
+	display: block;
+	padding: 10px;
+	color: #333;
+	border-radius: 10px;
+	font-size: 13px;
+}
+
+.Navlinks:hover {
+	background-color: #ddd;
+	color: #000;
+}

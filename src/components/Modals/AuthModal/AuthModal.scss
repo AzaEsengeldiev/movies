@@ -1,0 +1,41 @@
+.AuthModal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 30px;
+	position: absolute;
+	top: 120%;
+	left: -70px;
+	background-color: #f9f9f9;
+	z-index: 1;
+	border-radius: 10px;
+	padding: 20px 10px;
+	width: 300px;
+	.languageSettings {
+		color: black;
+		font-size: 17px;
+	}
+	.block {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		height: 20%;
+		background: gray;
+		color: white;
+		padding: 10px;
+		cursor: pointer;
+	}
+	.restart {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 7px;
+		color: white;
+		padding: 20px;
+		background: #0ac3e8;
+		border-radius: 20px;
+		border: none;
+	}
+}
